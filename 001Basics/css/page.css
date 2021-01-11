@@ -1,0 +1,25 @@
+
+@keyframes myfirst {
+    0% {opacity: 0}
+    25% {opacity: 100}
+    50% {opacity: 0}
+    100% {opacity: 0}
+}
+@keyframes mysecond {
+    0% {opacity: 0}
+    50% {opacity: 0}
+    75% {opacity: 100}
+    100% {opacity: 0}
+}
+p{
+    font-size: 100px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+#canghai{
+    animation: myfirst 2s infinite;
+}
+#taotao{
+    animation: mysecond 2s infinite;
+}
